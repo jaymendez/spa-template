@@ -4,11 +4,23 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+      screens: {
+        DEFAULT: '1440px',
+      },
+    },
     extend: {
       fontFamily: {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        'img-light': '#C4C4C4',
+        'img-dark': '#9D9D9D',
+        'light-gray': '#ECECEC',
+        'btn-color': '#000000',
+        'mid-gray': '#636262',
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
