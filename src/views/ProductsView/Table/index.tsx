@@ -90,7 +90,10 @@ const ProductTable = () => {
               >
                 <TableCell align='center'>{row.name}</TableCell>
                 <TableCell align='center'>{row.price}</TableCell>
-                <TableCell align='center'>
+                <TableCell
+                  align='center'
+                  className='flex items-center justify-center space-x-1 space-y-1'
+                >
                   <Button
                     variant='dark'
                     size='sm'
