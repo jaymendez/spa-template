@@ -1,4 +1,4 @@
-# Sample SPA Template
+# SPA Template
 
 ## Desktop:
 
